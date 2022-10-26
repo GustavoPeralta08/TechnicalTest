@@ -1,0 +1,5 @@
+<nav class="nav-menu">
+    <div *ngFor="let menu of menus$ | async">
+        <a href="{{menu.link}}">{{ menu.name }}</a>
+    </div>    
+</nav>

@@ -1,0 +1,22 @@
+#table-device {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table-device td, #table-device th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table-device tr:nth-child(even){background-color: #eaeaea;}
+  
+  #table-device tr:hover {background-color: #ddd;}
+  
+  #table-device th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #363636;
+    color: #bbbbbb;
+  }
